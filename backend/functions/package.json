@@ -1,0 +1,13 @@
+{
+  "name": "docustream-azure-functions",
+  "version": "1.0.0",
+  "description": "DocuStream Azure Functions",
+  "scripts": {
+    "start": "func start"
+  },
+  "dependencies": {
+    "@azure/storage-blob": "^12.17.0",
+    "mongoose": "^8.0.3",
+    "uuid": "^9.0.0"
+  }
+}
