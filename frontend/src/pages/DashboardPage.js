@@ -128,7 +128,7 @@ const PipelineViz = () => (
 
 /* ─── Main Dashboard ────────────────────────────────────────────────────────── */
 const DashboardPage = ({ toast, onNavigate }) => {
-  const { user } = useAuth();
+//   const {} = useAuth();
   const [stats, setStats] = useState(null);
   const [loading, setLoading] = useState(true);
   const [healthStatus, setHealthStatus] = useState(null);
